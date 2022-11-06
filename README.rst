@@ -1,19 +1,19 @@
-
-
+.. image:: https://badge.fury.io/py/federatedcore.svg
+    :target: https://badge.fury.io/py/federatedcore
 FederatedCore
-============
+===============
 
 FederatedCore: a research-oriented federal learning framework.
 
 Features
-=============
+===============
 #. Compatibility. FederatedCore can work seamlessly with mainstream deep learning frameworks, e.g., PyTorch and Tensorflow.
 #. Modular. The code of the algorithm module can be used individually.
 #. Easy to use. Retrofit existing code to data parallelism with no more than 100 lines code.
 
 
 QuickStart
-=============
+===============
 
 Install m3u8_To_MP4 via pip
 ---------------------------------------
@@ -29,8 +29,8 @@ Install m3u8_To_MP4 via pip
 
 
 Implement FedAvg in fewer than 100 lines.
----------------------------------------
-/examples/FedAvg/federated_average.py
+
+(/examples/FedAvg/federated_average.py)
 
 
 .. code-block:: python
