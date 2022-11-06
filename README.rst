@@ -11,6 +11,21 @@ Features
 #. Modular. The code of the algorithm module can be used individually.
 #. Easy to use. Retrofit existing code to data parallelism with no more than 100 lines code.
 
+Support
+===============
++---------------+-------------------------------------------+
+| Attributes    | Value                                     |
++===============+===========================================+
+| Framework     | Pytorch, Tensorflow                       |
++---------------+-------------------------------------------+
+| Engine        | parallelism, sequence                     |
++---------------+-------------------------------------------+
+| Dataset       | label distribution, quality distribution  |
++---------------+-------------------------------------------+
+| Topology      | parameter server, gossip, all reduce      |
++---------------+-------------------------------------------+
+| Communication | queue, TCP                                |
++---------------+-------------------------------------------+
 
 QuickStart
 ===============
@@ -28,6 +43,9 @@ Install m3u8_To_MP4 via pip
    python -m pip install ./FederatedCore
 
 
+
+A small example (FedAvg)
+---------------------------------------
 Implement FedAvg in fewer than 100 lines.
 
 (/examples/FedAvg/federated_average.py)
