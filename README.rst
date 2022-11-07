@@ -3,7 +3,7 @@
 FederatedCore
 ===============
 
-A research-oriented federal learning framework.
+A research-oriented federated learning framework.
 
 Features
 ===============
